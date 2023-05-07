@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CategoryPage = ({title}) => {
+const CategoryPage = () => {
   return (
     <div>
         <h1>{title}</h1>
@@ -23,11 +23,11 @@ export default CategoryPage
 //         }
 //     }
 // }
-export  async function getServerSideProps() {
-  const {events_categories} = await import("../../data/data.json");
+// export  async function getServerSideProps() {
+//   const {events_categories} = await import("../../data/data.json");
   
-  console.log(events_categories);
-  return {
-    props:{ title:"hello" }
-  };
-}
+//   console.log(events_categories);
+//   return {
+//     props:{ title:"hello" }
+//   };
+// }

@@ -4,7 +4,9 @@ const EventsPage = () => {
   return (
     <>
       <main className="flex flex-col gap-5 w-[80vw] m-auto">
-        <h1>Events</h1>
+
+        <h1>Evants</h1>
+        <h2></h2>
         <section>
           {/* <a href="/category/london"> */}
             <img src="/images/category/ev-cat-london.jpeg" alt="lodon city" />
@@ -59,3 +61,4 @@ const EventsPage = () => {
 };
 
 export default EventsPage;
+

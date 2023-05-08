@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CategoryPage = () => {
+const CategoryPage = ({title}) => {
   return (
     <div>
         <h1>{title}</h1>
@@ -16,18 +16,12 @@ const CategoryPage = () => {
 
 export default CategoryPage
 
-// export function getServerSideProps(){
-//     return{
-//         props:{
-//             title:"Events In Kumasi"
-//         }
-//     }
-// }
-// export  async function getServerSideProps() {
-//   const {events_categories} = await import("../../data/data.json");
-  
-//   console.log(events_categories);
-//   return {
-//     props:{ title:"hello" }
-//   };
-// }
+
+export const getStaticProps=()=>{
+  console.log("hi");
+  return{
+    props:{
+      title:"Event In Ofankor"
+    }
+  }
+}

@@ -9,13 +9,13 @@
       "id": "san-francisco",
       "title": "Events in San Francisco",
       "description": "corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate.",
-      "image": "/images/category/ev-cat-sanFrancisco.jpeg"
+      "image":"/images/category/ev-cat-sanFrancisco.jpeg"
     },
     {
       "id": "barcelona",
       "title": "Events in Barcelona",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/category/ev-cat-barsalona.jpeg"
+      "image": "/images/category/ev-cat-barcelona.jpeg"
     }
   ],
 

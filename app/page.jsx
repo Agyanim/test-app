@@ -1,5 +1,3 @@
-// import data from "../data/data.jsom"
-
 import Image from "next/image";
 import Link from "next/link";
 
@@ -13,11 +11,11 @@ const Home = async () => {
 
         {events_categories.map((events) => (
           <section>
-            <Link href={`/category/${events.id}`} key={events.id}>
+          <Link href={`/category/${events.id}`} key={events.id}>
               <Image
                 src={events.image}
-                width={200}
-                height={100}
+                width={400}
+                height={200}
                 alt="Event image"
               />
               <h2>{events.title}</h2>

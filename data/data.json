@@ -56,7 +56,7 @@
       "title": "Sigala at Electric Brixton",
       "city": "london",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/all/all-ev-london-sigala-london.jpeg",
+      "image": "/images/all/all-ev-comic-london.jpeg",
       "emails_registered": ["monica@gmail.com"]
     },
     {
@@ -72,7 +72,7 @@
       "title": "SF Blockchain Week",
       "city": "san-francisco",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/all/all-ev-sf-san-franscisco.jpeg",
+      "image": "/images/all/all-sf.jpeg",
       "emails_registered": [
         "",
         "",
@@ -87,7 +87,7 @@
       "title": "Innovation Summit San Francisco",
       "city": "san-francisco",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/all/all-ev-innovation-san-franscisco.jpeg",
+      "image": "/images/all/all-innovation.jpeg",
       "emails_registered": []
     },
     {
@@ -95,7 +95,7 @@
       "title": "FAN EXPO San Francisco",
       "city": "san-francisco",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/all/all-ev-fan-san-franscisco.jpeg",
+      "image": "/images/all/all-ev-fan.jpeg",
       "emails_registered": []
     },
     {
@@ -103,7 +103,7 @@
       "title": "San Francisco Opera - San Francisco Tickets",
       "city": "san-francisco",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/all/all-ev-opara-san-franscisco.jpeg",
+      "image": "/images/all/all-ev.jpeg",
       "emails_registered": []
     },
     {
@@ -132,7 +132,7 @@
       "title": "International Conference on Industrial Design",
       "city": "barcelona",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/all/all-ev-international-barcelona.jpeg",
+      "image": "/images/all/all-ev-internation-barcelona.jpeg",
       "emails_registered": ["alicia@gmail.com", "monica@gmail.com"]
     },
     {
@@ -140,7 +140,7 @@
       "title": "World Congress 2022 - Barcelona",
       "city": "barcelona",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "image": "/images/all/all-ev.jpeg",
       "emails_registered": ["alicia@gmail.com", "monica@gmail.com"]
     },
     {

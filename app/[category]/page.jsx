@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CategoryPage = ({title}) => {
+const CategoryPage = () => {
   return (
     <div>
         <h1>{title}</h1>
@@ -17,11 +17,3 @@ const CategoryPage = ({title}) => {
 export default CategoryPage
 
 
-export const getStaticProps=()=>{
-  console.log("hi");
-  return{
-    props:{
-      title:"Event In Ofankor"
-    }
-  }
-}

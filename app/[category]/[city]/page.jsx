@@ -55,27 +55,3 @@ export default Events
 
 
 
-// export const getStaticPath = async()=>{
-// const {events_categories}= await import("../../../data/data.json")
-// const allPath=events_categories.map(event=>{
-//   return{
-//     params:{
-//       cat:event.id.toString()
-//     }
-//   }
-// })
-//   return{
-//       paths:{
-//         params:id,
-//         fallback:false
-//       }
-//     };
-  
-// }
-
-// export const getStaticProps=(context)=>{
-//   console.log(context);
-//   return{
-//     props:{}
-//   }
-// }

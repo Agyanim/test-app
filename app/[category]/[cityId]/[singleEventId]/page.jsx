@@ -30,12 +30,12 @@ const SinglePage = ({ params }) => {
             <h2>Title: {singleEvent.title}</h2>
             <h3>City: {singleEvent.city}</h3>
             <p>Discription: {singleEvent.description}</p>
-            <p>
+            <div>
               Emial:
               {singleEvent.emails_registered?.map((email) => {
                 return <ul><li>{email}</li></ul>
               })}
-            </p>
+            </div>
           </Link>
         </section>
       }

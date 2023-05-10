@@ -3,6 +3,20 @@ import Link from "next/link";
 import Image from "next/image"
 import { use } from "react";
 
+//Data fetching
+
+export const getData=async ()=>{
+  const {events_categories}= await import(("../../../data/data.json"),{cache: "no store"})
+  
+ return events_categories
+}
+export const getAllEvents=async ()=>{
+  const {allEvents}= await import(("../../../data/data.json"),{cache: "no store"})
+  
+ return allEvents
+}
+
+
 const Events = ({params}) => {
   const events= use(getAllEvents())
   const {city}=params
@@ -35,28 +49,7 @@ categoryEents.map(events=>(
 
 export default Events
 
-//Data fetching
-export const getData=async ()=>{
-  const {events_categories}= await import(("../../../data/data.json"),{cache: "no store"})
-  
- return events_categories
-}
-export const getAllEvents=async ()=>{
-  const {allEvents}= await import(("../../../data/data.json"),{cache: "no store"})
-  
- return allEvents
-}
 
-//Generating static params
-// export const generateStaticParams=async ()=>{
-// const data= await (getAllEvents())
-// return data?.map(ev=> ({
-//   params: {}
-// }))
-// }
-// export const generateStaticParams=async ()=>{
-// return {params: {}}
-// }
 
 
 

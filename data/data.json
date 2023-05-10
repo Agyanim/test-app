@@ -107,11 +107,11 @@
       "emails_registered": []
     },
     {
-      "id": "concert-christian-löffler-+-detect-ensemble",
+      "id": "loffler-detect-ensemble",
       "title": "Concert Christian Löffler + Detect Ensemble",
       "city": "barcelona",
       "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
-      "image": "/images/all/all-ev-concert-barcelona.jpeg",
+      "image": "/images/all/concert.jpeg",
       "emails_registered": ["alicia@gmail.com", "monica@gmail.com"]
     },
     {

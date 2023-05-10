@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import Link from "next/link";
 import Image from "next/image"
 import { use } from "react";
@@ -6,7 +6,7 @@ import { use } from "react";
 //Data fetching
 
 export const getData=async ()=>{
-  const {events_categories}= await import(("../../../data/data.json"),{cache: "no store"})
+  const {events_categories}= await import(("../../../data/data.json"))
   
  return events_categories
 }
@@ -19,16 +19,16 @@ export const getAllEvents=async ()=>{
 
 const Events = ({params}) => {
   const events= use(getAllEvents())
-  const {city}=params
-  const categoryEents=events.filter(ev=>ev.city==city)
-  console.log(categoryEents);
+  const {cityId}=params
+  const categoryEents=events.filter(ev=>ev.city==cityId)
+  // console.log(categoryEents);
   return (
 <main>
 
   {
 categoryEents.map(events=>(
   <section>
-  <Link href={{}} key={events.id}>
+  <Link href={`/category/cityId/${events.id}`} key={events.id}>
       <Image
         src={events.image}
         width={200}

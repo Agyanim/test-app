@@ -1,6 +1,6 @@
 // "use client"
 
-import AuthForm from "@/components/authForm";
+// import AuthForm from "@/components/authForm";
 
 const Home = async () => {
   return (
@@ -9,7 +9,7 @@ const Home = async () => {
         <section>
           <h1>Firebase Authentication Project</h1>
           <div>
-            <AuthForm />
+            {/* <AuthForm /> */}
           </div>
         </section>
       </main>
